@@ -14,10 +14,6 @@ IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
 or implied.
 """
 
-
-from __future__ import absolute_import, division, print_function
-
-
 #Code starts here
 
 from pprint import pprint
@@ -135,23 +131,3 @@ f.close()
 
 
 #Code ends here
-
-__author__ = "Tahsin Chowdhury <tchowdhu@cisco.com>"
-__contributors__ = [
-    "Matthew Nouchi <mnouchi@cisco.com>"
-]
-__copyright__ = "Copyright (c) 2020 Cisco and/or its affiliates."
-__license__ = "Cisco Sample Code License, Version 1.1"
-
-indent = 4
-print(
-    __doc__,
-    "Author:",
-    " " * indent + __author__,
-    "Contributors:",
-    "\n".join([" " * indent + name for name in __contributors__]),
-    "",
-    __copyright__,
-    "Licensed Under: " + __license__,
-    sep="\n"
-)
